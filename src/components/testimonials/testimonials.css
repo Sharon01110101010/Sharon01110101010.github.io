@@ -1,0 +1,35 @@
+.container.testimonials__container{
+    width: 50%;
+    padding-bottom: 4rem;
+}
+
+.photo {
+    border-radius: 1rem;
+    margin: 0 auto 1rem;
+}
+
+.testimonial {
+    background: var(--color-bg-variant);
+    text-align: center;
+    padding: 2rem;
+    border-radius: 2rem;
+    user-select: none;
+}
+
+
+ /* ============ MEDICA QUERIES (MEDIUM DEVICES ) ===============  */
+
+ @media screen and (max-width: 1024px) {
+    .container.testimonials__container{
+        width: 60%;
+    }
+ }
+
+  /* ============ MEDICA QUERIES (SMALL DEVICES ) ===============  */
+
+  @media screen and (max-width: 600px) {
+    .container.testimonials__container{
+        width: var(--container-width-sm);
+    }
+
+  }
